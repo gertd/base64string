@@ -1,5 +1,6 @@
-# base64string
+# base64string.base64String
 
-Helper packge which automaticly base64 encode string when marshalled and decode when unmarshalled
+Helper package which automaticly base64 encodes string when marshalled to JSON and decodes when unmarshalled.
+Useful for making sure marshal data is guaranteed to be encoded.
 
-NOTE: implementation only support JSON encoding
+NOTE: current implementation only supports JSON encoding (implements MarshalJSON and UnmarshalJSON)
