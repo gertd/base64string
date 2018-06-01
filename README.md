@@ -1,2 +1,5 @@
 # base64string
-base64 string abstraction
+
+Helper packge which automaticly base64 encode string when marshalled and decode when unmarshalled
+
+NOTE: implementation only support JSON encoding
