@@ -48,7 +48,7 @@ Example:
 			log.Fatal(err)
 		}
 	
-		fmt.Printf("raw:   %v\n\nn", u2)
+		fmt.Printf("raw:   %v\n\n", u2)
 	
 		fmt.Printf("name:  %s\n", u2.Name.Get())
 		fmt.Printf("email: %s\n", u2.Email.Get())
